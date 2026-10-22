@@ -23,7 +23,6 @@
                 }
             }
         </style>
-        {% block script %}{% endblock %}
         {% if not show_colors %}
             <style>
                 body, img {
@@ -223,5 +222,6 @@
                 </nav>
             {% endspaceless %}
         </footer>
+        {% block script %}{% endblock %}
     </body>
 </html>
